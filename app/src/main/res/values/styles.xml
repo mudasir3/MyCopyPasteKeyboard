@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="style_sf_pro_xlarge_bold_black">
+        <item name="android:fontFamily">@font/sfprodisplayregular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_xlarge</item>
+    </style>
+
+    <style name="style_sf_pro_xlarge_bold_white">
+        <item name="android:fontFamily">@font/sfprodisplayregular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_xlarge</item>
+    </style>
+
+    <style name="style_sf_pro_xxlarge_bold_white">
+        <item name="android:fontFamily">@font/sfprodisplayregular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_xxlarge</item>
+    </style>
+
+    <style name="style_sf_pro_xlarge_bold_primary">
+        <item name="android:fontFamily">@font/sfprodisplayregular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="style_sf_pro_xlarge_bold_grey">
+        <item name="android:fontFamily">@font/sfprodisplayregular</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="style_sf_pro_xlarge_black">
+        <item name="android:fontFamily">@font/sfprodisplayregular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_xlarge</item>
+    </style>
+
+    <style name="style_sf_pro_xlarge_bold_grey_light">
+        <item name="android:fontFamily">@font/sfprodisplaybold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorGreyLight</item>
+        <item name="android:textSize">@dimen/text_xlarge</item>
+    </style>
+</resources>

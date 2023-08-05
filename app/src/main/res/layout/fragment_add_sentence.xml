@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/text"
+            style="@style/style_sf_pro_xxlarge_bold_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Sentence"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="10dp"
+        android:layout_below="@+id/text"
+        android:background="@drawable/white_rectangle"
+        >
+
+        <EditText
+            android:id="@+id/et_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:background="@null"
+            android:focusableInTouchMode="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_top"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/round_button">
+
+        <ImageView
+            android:id="@+id/imgtext"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/right"/>
+
+    </RelativeLayout>
+</RelativeLayout>
